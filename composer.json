@@ -1,0 +1,15 @@
+{
+    "name": "ghostchu/torrent-rss-feed-generator",
+    "description": "Generate Torrent Rss Feed from MySQL database",
+    "type": "project",
+    "require": {
+        "suin/php-rss-writer": "^1.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ghost chu",
+            "email": "ghostchu@qq.com"
+        }
+    ]
+}

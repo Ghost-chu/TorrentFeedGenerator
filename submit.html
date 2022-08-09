@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit Magnet Links</title>
+    <link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+</head>
+<body>
+  <h1>提交Magnet链接</h1>
+  <form action="submit.php" method="POST">
+    Magnets链接:<br>
+    <textarea cols="48" name="magnets" id="textarea" placeholder="在这里粘贴你的 Magnets 链接，一行一个" rows="8"></textarea>
+    <br>
+    提交人:<br>
+    <input type="text" name="author">
+    <br>
+    描述:<br>
+    <input type="text" name="description">
+    <br>
+    提交密码:<br>
+    <input type="password" name="password">
+    <br>
+    确认提交:<br>
+    <input type="submit" value="确认提交">
+  </form>
+</body>
+</html>
